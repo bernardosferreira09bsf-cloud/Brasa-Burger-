@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brasa Burger | Sabor de verdade</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:#111;color:#fff;font-family:Arial,sans-serif}
+header{padding:22px 7%;display:flex;justify-content:space-between;align-items:center;background:#111;position:sticky;top:0;z-index:10;border-bottom:1px solid #333}
+.logo{font-size:23px;font-weight:900;color:#f2b632}
+.logo span{color:#fff}
+nav a{color:#fff;text-decoration:none;margin-left:20px;font-size:14px}
+.hero{min-height:560px;padding:90px 8%;display:flex;align-items:center;background:linear-gradient(90deg,#111 15%,#111b 55%,#1115),url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1400') center/cover}
+.hero-content{max-width:550px}
+.tag{color:#f2b632;font-weight:bold;letter-spacing:3px;font-size:13px}
+h1{font-size:clamp(42px,8vw,70px);line-height:1.05;margin:20px 0}
+h1 span{color:#f2b632}
+.hero p{color:#ccc;line-height:1.7;font-size:17px}
+.btn{display:inline-block;margin-top:28px;background:#e8a923;color:#111;padding:16px 25px;border-radius:6px;text-decoration:none;font-weight:bold}
+section{padding:75px 8%}
+.section-title{text-align:center;font-size:34px;margin-bottom:12px}
+.subtitle{text-align:center;color:#aaa;margin-bottom:40px}
+.menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:25px}
+.item{background:#1d1d1d;border-radius:12px;overflow:hidden;border:1px solid #333}
+.item img{width:100%;height:190px;object-fit:cover}
+.item-content{padding:20px}
+.item h3{margin-bottom:10px}
+.item p{color:#aaa;font-size:14px;line-height:1.5;min-height:42px}
+.price{color:#f2b632;font-size:21px;font-weight:bold;margin-top:16px}
+.about{background:#1b1b1b;text-align:center}
+.about p{max-width:650px;margin:20px auto;color:#bbb;line-height:1.8}
+.contact{text-align:center}
+.contact p{color:#bbb;margin-top:15px}
+footer{padding:25px;text-align:center;background:#090909;color:#888;font-size:13px}
+@media(max-width:600px){
+header{padding:18px 5%}
+nav a{margin-left:10px;font-size:12px}
+.hero{min-height:520px;padding:65px 7%;background-position:60% center}
+section{padding:60px 6%}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">BRASA<span> BURGER.</span></div>
+<nav>
+<a href="#cardapio">Cardápio</a>
+<a href="#sobre">Sobre</a>
+<a href="#contato">Contato</a>
+</nav>
+</header>
+
+<main>
+<div class="hero">
+<div class="hero-content">
+<div class="tag">SABOR QUE MARCA</div>
+<h1>O verdadeiro sabor do <span>hambúrguer.</span></h1>
+<p>Ingredientes selecionados, carne suculenta e aquele sabor artesanal que transforma qualquer momento.</p>
+<a class="btn" href="#cardapio">CONHEÇA O CARDÁPIO</a>
+</div>
+</div>
+
+<section id="cardapio">
+<h2 class="section-title">Nosso cardápio</h2>
+<p class="subtitle">Escolha seu próximo favorito.</p>
+<div class="menu">
+<div class="item">
+<img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600" alt="Hambúrguer artesanal">
+<div class="item-content">
+<h3>Brasa Clássico</h3>
+<p>Pão brioche, carne artesanal, queijo e molho especial.</p>
+<div class="price">R$ 29,90</div>
+</div>
+</div>
+<div class="item">
+<img src="https://images.unsplash.com/photo-1553979459-d2229ba7433a?w=600" alt="Hambúrguer com queijo">
+<div class="item-content">
+<h3>Cheddar Supremo</h3>
+<p>Carne suculenta, cheddar cremoso e cebola caramelizada.</p>
+<div class="price">R$ 34,90</div>
+</div>
+</div>
+<div class="item">
+<img src="https://images.unsplash.com/photo- burger?w=600" alt="Hambúrguer especial">
+<div class="item-content">
+<h3>Brasa Bacon</h3>
+<p>Hambúrguer artesanal, bacon crocante e queijo derretido.</p>
+<div class="price">R$ 37,90</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="about" id="sobre">
+<h2 class="section-title">Feito com paixão.</h2>
+<p>Na Brasa Burger, cada detalhe importa. Trabalhamos com ingredientes selecionados e muito cuidado para entregar uma experiência inesquecível em cada mordida.</p>
+</section>
+
+<section class="contact" id="contato">
+<h2 class="section-title">Bateu a fome?</h2>
+<p>Entre em contato e faça seu pedido!</p>
+<a class="btn" href="https://wa.me/5500000000000">FALE CONOSCO</a>
+<p style="font-size:12px">Projeto demonstrativo. Cardápio, preços e contato fictícios.</p>
+</section>
+</main>
+
+<footer>
+© 2026 Brasa Burger — Projeto demonstrativo.
+</footer>
+</body>
+</html>
